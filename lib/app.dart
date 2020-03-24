@@ -13,7 +13,7 @@ class App extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       showPerformanceOverlay: false,
     
-      home: MainPage(),
+      home: Container(),
       routes: <String, WidgetBuilder>{
       },
       onUnknownRoute: (RouteSettings rs) => new MaterialPageRoute(
